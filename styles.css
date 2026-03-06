@@ -163,7 +163,7 @@ ul {
   border-radius: var(--radius-md);
   border-width: 0;
   border-style: none;
-  border-color: rgba(0, 0, 0, 0);
+  border-color: rgb(0 0 0 / 0%);
   border-image: none;
   box-shadow:
     0 0 0 1px rgb(255 255 255 / 4%) inset,
@@ -178,9 +178,11 @@ ul {
   border-radius: calc(var(--radius-md) + 1px);
   padding: 1px;
   background: var(--gradient-gold);
+  /* stylelint-disable property-no-vendor-prefix -- needed for Safari */
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+  /* stylelint-enable property-no-vendor-prefix */
   mask-composite: exclude;
   opacity: 0.5;
   pointer-events: none;
@@ -658,7 +660,7 @@ ul {
 }
 
 .event-card {
-  background: linear-gradient(145deg, rgb(22 22 26 / 0.98) 0%, var(--color-bg-elevated) 100%);
+  background: linear-gradient(145deg, rgb(22 22 26 / 98%) 0%, var(--color-bg-elevated) 100%);
   padding: var(--space-lg);
   border-radius: var(--radius-sm);
   border: 1px solid rgb(201 162 39 / 18%);
@@ -820,7 +822,7 @@ ul {
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .hero-content {
     margin-top: -2.5rem;
     padding-left: var(--space-sm);
@@ -902,7 +904,6 @@ ul {
 
 /* ===== Reduced motion ===== */
 @media (prefers-reduced-motion: reduce) {
-
   *,
   *::before,
   *::after {
@@ -912,7 +913,7 @@ ul {
   }
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .hero {
     padding: var(--space-xl) var(--space-md);
   }
