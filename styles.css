@@ -121,7 +121,7 @@ ul {
       rgb(13 13 15 / 80%) 65%,
       var(--color-bg) 100%),
     linear-gradient(160deg, rgb(201 162 39 / 6%) 0%, transparent 40%),
-    url("images/hero-bg 2.png") center / cover no-repeat;
+    url("images/hero-bg.webp") center / cover no-repeat;
 }
 
 .hero-content {
@@ -322,19 +322,19 @@ ul {
 }
 
 .hero-card--bar .hero-card-bg {
-  --card-bg: url("images/bar1.png");
+  --card-bg: url("images/bar1.webp");
 }
 
 .hero-card--nightclub .hero-card-bg {
-  --card-bg: url("images/nightclub.png");
+  --card-bg: url("images/nightclub.webp");
 }
 
 .hero-card--karaoke .hero-card-bg {
-  --card-bg: url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80");
+  --card-bg: url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=480&q=75&fm=webp");
 }
 
 .hero-card--biljardi .hero-card-bg {
-  --card-bg: url("https://images.unsplash.com/photo-1770802990578-5ee849f8e22d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80");
+  --card-bg: url("https://images.unsplash.com/photo-1770802990578-5ee849f8e22d?auto=format&fit=crop&w=480&q=75&fm=webp");
 }
 
 .hero-card-label {
