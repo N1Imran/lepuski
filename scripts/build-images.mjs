@@ -20,6 +20,14 @@ const jobs = [
   { src: 'nightclub3.png', out: 'nightclub3.webp', maxW: 1200 },
   { src: 'hero-bg 2.png', out: 'hero-bg.webp', maxW: 1920 },
   { src: 'logo.png', out: 'logo.webp', maxW: 128 },
+  { src: 'happy hours.png', out: 'happy-hours.webp', maxW: 1200 },
+  { src: 'drink list.png', out: 'drink-list.webp', maxW: 1200 },
+  { src: 'mojito.png', out: 'mojito.webp', maxW: 1200 },
+  { src: 'irish-coffe.png', out: 'irish-coffee.webp', maxW: 1200 },
+  { src: 'lepuski-drink.png', out: 'lepuski-drink.webp', maxW: 1200 },
+  { src: 'sunrise-tequila.png', out: 'sunrise-tequila.webp', maxW: 1200 },
+  { src: 'margarita.png', out: 'margarita.webp', maxW: 1200 },
+  { src: 'on-the-beach.png', out: 'on-the-beach.webp', maxW: 1200 },
 ];
 
 async function main() {
